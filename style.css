@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:700,700i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.name-wrapper {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e0e0;
+    height: 100%;
+}
+
+h1 {
+    font: italic 700 5em 'Muli', sans-serif;
+    text-align: center;
+    color: #c0c0c0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.footer-links {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    padding: 4px;
+    text-align: center;
+    font: 400 0.9em 'Open Sans', sans-serif;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #f0f0f0;
+    padding: 0 8px;
+    transition: color 0.1s;
+}
+
+.footer-links a:hover {
+    color: #c0c0c0;
+}
+
+.footer-links a:not(:last-child) {
+    border-right: 1px solid #f0f0f0;
+}
+
+.footer-links span.white {
+    color: #f0f0f0;
+}
